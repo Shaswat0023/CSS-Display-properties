@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 10px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        span{
+            height: 500px;
+            width: 500p;
+            border: 2px solid red;
+            margin: 20px;
+            padding: 20px;
+            display: inline-block;
+
+            /* To view inline element in the form of block element we use the command 
+            given below. */
+            /* display: block; */
+        }
+
+        p{
+            /* height: 300px;
+            width: 300px;
+            /* As we know this is the block element and if we use display inline then 
+            height and width will not be set */
+            /* To view block element in the form of inline element we use the command
+            given below.  */
+            /* display: inline; */
+        }
+    </style>
+</head>
+<body>
+    <!-- inline element are the element which take width upto where the
+    content is present. For example- span tag, anchor tag etc. it takes the next line
+    only when the width of the viewport is not available-->
+    <!-- custom width and height is not applicable. -->
+    <!-- custom margins are not applied. -->
+    <span>
+        Welcome to the world of web development.
+    </span>
+    <span>
+        Welcome to the world of web development.
+    </span>
+    <!-- <br><br><br><br><br><br> -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Nobis, fuga. Doloremque perferendis ducimus et eaque 
+        sequi repellendus repudiandae alias eligendi.
+    </p> -->
+    
+    <!-- inline-block property 
+    It behaves like inline but custom height and width can be added. -->
+</body>
+</html>
+
+<!-- Difference between block and inline element  -->
+
+<!-- Block element:
+Every new block element comes in a new line.
+Takes by default width from extreme left to extreme right.
+Custom margin and padding can be applied.
+Custom height and width can be applied.
+
+Inline Element:
+Every new inline element comes in the same line unless and until the width is not 
+available.
+Takes the width according to the content size.
+Custom margin and padding is not applicable.
+Custom padding is applicable. -->
